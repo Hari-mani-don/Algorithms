@@ -153,10 +153,10 @@ public class DoublyLinkedList<T> {
 //		doublyLinkedList.addFirst(3);
 //		doublyLinkedList.addLast(3);
 //		doublyLinkedList.addFirst(1);
-		doublyLinkedList.remove(0);
-		doublyLinkedList.removeFist();
-		doublyLinkedList.removeLast();
-		doublyLinkedList.prints();
+//		doublyLinkedList.remove(0);
+//		doublyLinkedList.removeFist();
+//		doublyLinkedList.removeLast();
+//		doublyLinkedList.prints();
 		System.out.println(doublyLinkedList.size());
 
 
