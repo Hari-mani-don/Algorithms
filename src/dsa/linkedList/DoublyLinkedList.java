@@ -25,19 +25,19 @@ public class DoublyLinkedList<T> {
 		}
 	}
 
-	public void addLast(T value) {
-		Node<T> newNode = new Node<>(value);
-
-		if (head == null) {
-			head = newNode;
-			tail = newNode;
-		} else {
-			tail.next = newNode;
-			newNode.prev = tail;
-			tail = newNode;
-		}
-		size++;
-	}
+//	public void addLast(T value) {
+//		Node<T> newNode = new Node<>(value);
+//
+//		if (head == null) {
+//			head = newNode;
+//			tail = newNode;
+//		} else {
+//			tail.next = newNode;
+//			newNode.prev = tail;
+//			tail = newNode;
+//		}
+//		size++;
+//	}
 
 	public void add(T value) {
 		Node<T> newNode = new Node<>(value);
