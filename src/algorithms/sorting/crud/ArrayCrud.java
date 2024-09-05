@@ -21,6 +21,10 @@ public class ArrayCrud {
 		read(array);
 		array = add(array, 2, 0);
 		read(array);
+
+		//array = delete(array, 0);
+		array = deleteAll(array, 0);
+		read(array);
 	}
 
 	public static int[] add(int[] array, int index, int value) {
@@ -57,19 +61,35 @@ public class ArrayCrud {
 
 	public static int[] deleteAll(int[] array, int target) {
 
-		for (int i = 0; i < array.length; i++) {
-			if (array[i] == target) {
-				array[i] = array[i + 1];
-			}
+		int increment = 0;
+		int count = 0;
+		while (increment < array.length) {
+			if (array[increment] == target)
+				count++;
+			increment++;
 		}
-		return array;
+		int[] newArray = new int[array.length - count];
+		increment = 0;
+
+		for (int i = 0; i < array.length; i++) {
+			if (!(array[i] == target)) {
+				newArray[increment] = array[i];
+				increment++;
+			}
+
+		}
+		return newArray;
 	}
 
 	public static int[] delete(int[] array, int index) {
-		int mid = array.length / 2;
-		for(int i=0;i<)
-		array[index]= ;
-		return null;
+
+		for (int i = index - 1; i < array.length - 1; i++) {
+			if (i >= 0 && i < array.length - 1) {
+				array[i] = array[i + 1];
+			}
+		}
+
+		return array;
 	}
 
 	public static void read(int[] arrays) {
