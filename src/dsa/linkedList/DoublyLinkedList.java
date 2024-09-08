@@ -156,5 +156,6 @@ public class DoublyLinkedList<T> {
 		doublyLinkedList.removeLast();
 		doublyLinkedList.prints();
 		System.out.println(doublyLinkedList.size());
+
 	}
 }
