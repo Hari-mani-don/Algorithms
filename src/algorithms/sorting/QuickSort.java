@@ -1,7 +1,6 @@
 package algorithms.sorting;
 import java.util.Arrays;
 import java.util.Arrays;
-
 public class QuickSort {
 	public static void main(String[] args) {
 		int[] array = { 29, 10, 14, 37, 13, 1, 5, 23, 30, 18, 36, 31, 32, 11, 27 };
@@ -9,7 +8,6 @@ public class QuickSort {
 		System.out.println(Arrays.toString(array));
 
 	}
-
 	public static int[] quickSort(int[] array, int low, int high) {
 		int i = low - 1;
 		int pivot = array[high - 1];
