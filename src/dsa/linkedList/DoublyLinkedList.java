@@ -148,12 +148,11 @@ public class DoublyLinkedList<T> {
 	}
 
 	public static void main(String args[]) {
-
 		DoublyLinkedList<Integer> doublyLinkedList = new DoublyLinkedList<Integer>();
-		doublyLinkedList.add(2);
-		doublyLinkedList.addFirst(3);
-		doublyLinkedList.addLast(3);
-		doublyLinkedList.addFirst(1);
+//		doublyLinkedList.add(2);
+//		doublyLinkedList.addFirst(3);
+//		doublyLinkedList.addLast(3);
+//		doublyLinkedList.addFirst(1);
 		doublyLinkedList.remove(0);
 		doublyLinkedList.removeFist();
 		doublyLinkedList.removeLast();
