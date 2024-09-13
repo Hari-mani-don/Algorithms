@@ -35,6 +35,10 @@ public class PriorityQueue<T> {
 			currentNode.nextNode = newNode;
 		}
 		size++;
+
+
+
+
 	}
 //	public void dequee() {
 //		if(head)
