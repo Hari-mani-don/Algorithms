@@ -2,8 +2,11 @@ package algorithms.sorting;
 
 public class MergeSort {
 
+
     public static void mergeSort(int[] array, int left, int right) {
+
         if (left < right) {
+
             int middle = (left + right) / 2;
 
             // Sort the left half
