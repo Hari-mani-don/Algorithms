@@ -5,9 +5,12 @@ public class PriorityQueue<T> {
 	private int size;
 
 	public PriorityQueue() {
+
 		head = null;
 		size = 0;
+
 	}
+
 
 	private static class Node<T> {
 		Node<T> nextNode;
@@ -35,9 +38,6 @@ public class PriorityQueue<T> {
 			currentNode.nextNode = newNode;
 		}
 		size++;
-
-
-
 
 	}
 //	public void dequee() {
