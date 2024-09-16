@@ -1,11 +1,10 @@
 package dsa.queue;
 
 public class PriorityQueue<T> {
+
 	private Node<T> head;
 	private int size;
-
 	public PriorityQueue() {
-
 		head = null;
 		size = 0;
 
