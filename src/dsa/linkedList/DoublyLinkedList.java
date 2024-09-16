@@ -1,6 +1,8 @@
 package dsa.linkedList;
 
+
 public class DoublyLinkedList<T> {
+
 	private Node<T> head;
 	private Node<T> tail;
 	private int size;
@@ -146,6 +148,7 @@ public class DoublyLinkedList<T> {
 	}
 
 	public static void main(String args[]) {
+
 		DoublyLinkedList<Integer> doublyLinkedList = new DoublyLinkedList<Integer>();
 		doublyLinkedList.add(2);
 		doublyLinkedList.addFirst(3);
@@ -156,6 +159,7 @@ public class DoublyLinkedList<T> {
 		doublyLinkedList.removeLast();
 		doublyLinkedList.prints();
 		System.out.println(doublyLinkedList.size());
+
 
 	}
 }
