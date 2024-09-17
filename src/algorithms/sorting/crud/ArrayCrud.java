@@ -1,7 +1,5 @@
 package algorithms.sorting.crud;
-
 import java.util.Arrays;
-
 public class ArrayCrud {
 	public static void main(String[] args) {
 		// create
