@@ -1,9 +1,7 @@
 package dsa.linkedList;
-
 public class SinglyLinkedList<T> {
 	private Node<T> head;
 	private int size;
-
 	public SinglyLinkedList() {
 		head = null;
 		size = 0;
