@@ -1,7 +1,5 @@
 package algorithms.sorting;
-
 import java.util.Arrays;
-
 import java.util.Arrays;
 
 public class QuickSort {
