@@ -9,13 +9,10 @@ public class PriorityQueue<T> {
 		size = 0;
 
 	}
-
-
 	private static class Node<T> {
 		Node<T> nextNode;
 		int priority;
 		T element;
-
 		public Node(T element, int priority) {
 			nextNode = null;
 			this.priority = priority;
@@ -38,7 +35,10 @@ public class PriorityQueue<T> {
 		}
 		size++;
 
+
 	}
+
+
 //	public void dequee() {
 //		if(head)
 //	}
