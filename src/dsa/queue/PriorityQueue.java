@@ -1,7 +1,5 @@
 package dsa.queue;
-
 public class PriorityQueue<T> {
-
 	private Node<T> head;
 	private int size;
 	public PriorityQueue() {
@@ -37,7 +35,6 @@ public class PriorityQueue<T> {
 
 
 	}
-
 
 //	public void dequee() {
 //		if(head)
