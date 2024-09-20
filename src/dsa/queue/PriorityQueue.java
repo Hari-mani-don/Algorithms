@@ -34,7 +34,7 @@ public class PriorityQueue<T> {
 		size++;
 	}
 
-//	public void dequee() {
-//		if(head)
-//	}
+	public void dequee() {
+		if(head)
+	}
 }
